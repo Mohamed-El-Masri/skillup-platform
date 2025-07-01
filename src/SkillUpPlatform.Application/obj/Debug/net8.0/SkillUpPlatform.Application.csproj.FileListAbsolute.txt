@@ -1,0 +1,15 @@
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.deps.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.AssemblyReference.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfoInputs.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfo.cs
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.CoreCompileInputs.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpP.960CE8BF.Up2Date
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll

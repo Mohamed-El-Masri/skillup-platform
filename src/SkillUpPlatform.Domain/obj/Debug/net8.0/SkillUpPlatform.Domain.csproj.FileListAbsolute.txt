@@ -1,0 +1,11 @@
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.deps.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.GeneratedMSBuildEditorConfig.editorconfig
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.AssemblyInfoInputs.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.AssemblyInfo.cs
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.csproj.CoreCompileInputs.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\refint\SkillUpPlatform.Domain.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\ref\SkillUpPlatform.Domain.dll
