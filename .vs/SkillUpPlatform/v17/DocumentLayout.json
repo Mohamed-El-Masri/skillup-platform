@@ -1,13 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\PWD - 9Months\\Intake 45 labs\\ITI 9 Months Labs\\00- project\\07-Graduation Project\\SkillUpPlatform\\",
+  "WorkspaceRootPath": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|e:\\pwd - 9months\\intake 45 labs\\iti 9 months labs\\00- project\\07-graduation project\\skillupplatform\\src\\skillupplatform.api\\skillupplatform.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|solutionrelative:src\\skillupplatform.api\\skillupplatform.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\content\\queries\\contentqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\content\\queries\\contentqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\content\\commands\\contentcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\content\\commands\\contentcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\ai\\queries\\aiqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\ai\\queries\\aiqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\ai\\commands\\aicommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\ai\\commands\\aicommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\assessments\\commands\\assessmentcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\assessments\\commands\\assessmentcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\assessments\\handlers\\assessmentqueryhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\assessments\\handlers\\assessmentqueryhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\assessments\\handlers\\assessmentcommandhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\assessments\\handlers\\assessmentcommandhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.api\\controllers\\assessmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|solutionrelative:src\\skillupplatform.api\\controllers\\assessmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.api\\controllers\\aiassistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|solutionrelative:src\\skillupplatform.api\\controllers\\aiassistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.api\\controllers\\resourcescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|solutionrelative:src\\skillupplatform.api\\controllers\\resourcescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +54,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 13,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{7ff2ab69-0a20-4bf5-baef-24d9eb6969e1}"
@@ -30,26 +111,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SkillUpPlatform.API",
-              "DocumentMoniker": "E:\\PWD - 9Months\\Intake 45 labs\\ITI 9 Months Labs\\00- project\\07-Graduation Project\\SkillUpPlatform\\src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj",
-              "ToolTip": "E:\\PWD - 9Months\\Intake 45 labs\\ITI 9 Months Labs\\00- project\\07-Graduation Project\\SkillUpPlatform\\src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj",
-              "RelativeToolTip": "src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-01T20:01:27.898Z",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:39:11.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAANsTAAAAAAAAAAAcwOUTAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-01T20:00:35.193Z",
+              "Title": "ContentQueries.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Content\\Queries\\ContentQueries.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Content\\Queries\\ContentQueries.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Content\\Queries\\ContentQueries.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Content\\Queries\\ContentQueries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:39:05.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContentCommands.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Content\\Commands\\ContentCommands.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Content\\Commands\\ContentCommands.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Content\\Commands\\ContentCommands.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Content\\Commands\\ContentCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:39:01.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AIQueries.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\Queries\\AIQueries.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\AI\\Queries\\AIQueries.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\Queries\\AIQueries.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\AI\\Queries\\AIQueries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:38:58.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AICommands.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\Commands\\AICommands.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\AI\\Commands\\AICommands.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\Commands\\AICommands.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\AI\\Commands\\AICommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:38:54.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssessmentCommands.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Commands\\AssessmentCommands.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Commands\\AssessmentCommands.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Commands\\AssessmentCommands.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Commands\\AssessmentCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:22:46.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssessmentQueryHandlers.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentQueryHandlers.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentQueryHandlers.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentQueryHandlers.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentQueryHandlers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:46:56.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssessmentCommandHandlers.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentCommandHandlers.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentCommandHandlers.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentCommandHandlers.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentCommandHandlers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:44:37.113Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssessmentsController.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\AssessmentsController.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\AssessmentsController.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\AssessmentsController.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\AssessmentsController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:37:02.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AIAssistantController.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\AIAssistantController.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\AIAssistantController.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\AIAssistantController.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\AIAssistantController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:36:52.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResourcesController.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:36:39.905Z"
             }
           ]
         }

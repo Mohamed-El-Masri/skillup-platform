@@ -75,6 +75,7 @@ public class CreateAssessmentCommandHandler : IRequestHandler<CreateAssessmentCo
             return Result<int>.Failure($"Failed to create assessment: {ex.Message}");
         }
     }
+
 }
 
 public class SubmitAssessmentCommandHandler : IRequestHandler<SubmitAssessmentCommand, Result<int>>

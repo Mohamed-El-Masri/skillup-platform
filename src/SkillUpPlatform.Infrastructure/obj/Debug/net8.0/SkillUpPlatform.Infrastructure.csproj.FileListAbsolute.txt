@@ -17,3 +17,23 @@ e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Proj
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.genruntimeconfig.cache
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\ref\SkillUpPlatform.Infrastructure.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.deps.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.runtimeconfig.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.csproj.AssemblyReference.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.AssemblyInfoInputs.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.AssemblyInfo.cs
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.sourcelink.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpP.83154015.Up2Date
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\refint\SkillUpPlatform.Infrastructure.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\SkillUpPlatform.Infrastructure.genruntimeconfig.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Infrastructure\obj\Debug\net8.0\ref\SkillUpPlatform.Infrastructure.dll
