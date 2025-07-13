@@ -29,3 +29,8 @@ public class GetInterviewQuestionsQuery : IRequest<Result<List<ResourceDto>>>
 {
     public string? Category { get; set; }
 }
+
+public class GetInterviewQuestionsByCategoryQuery : IRequest<Result<List<ResourceDto>>>
+{
+    public string Category { get; set; } = string.Empty;
+}

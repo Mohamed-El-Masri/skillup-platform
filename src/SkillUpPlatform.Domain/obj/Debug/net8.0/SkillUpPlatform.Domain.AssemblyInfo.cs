@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillUpPlatform.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1db8796496ab312eed6d54b7950f1cb5af7bb12b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17b0760fac013999b02b5558e16739f086a4cdc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillUpPlatform.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillUpPlatform.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

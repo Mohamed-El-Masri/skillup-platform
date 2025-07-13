@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SkillUpPlatform.Application.Features.Resources.Commands;
 using SkillUpPlatform.Application.Features.Resources.Queries;
+using SkillUpPlatform.Application.Common.Models;
 using MediatR;
 
 namespace SkillUpPlatform.API.Controllers;
@@ -9,49 +10,48 @@ namespace SkillUpPlatform.API.Controllers;
 [Route("api/v1/[controller]")]
 public class ResourcesController : BaseController
 {
-    public ResourcesController(IMediator mediator) : base(mediator)
-    {
-    }
+    public ResourcesController(IMediator mediator) : base(mediator) { }
 
     [HttpGet("cv-templates")]
     public async Task<IActionResult> GetCVTemplates()
     {
-        // Implementation will be added later
-        return Ok();
+        var result = await _mediator.Send(new GetCVTemplatesQuery());
+        return HandleResult(result);
     }
 
     [HttpGet("cover-letter-templates")]
     public async Task<IActionResult> GetCoverLetterTemplates()
     {
-        // Implementation will be added later
-        return Ok();
+        var result = await _mediator.Send(new GetCoverLetterTemplatesQuery());
+        return HandleResult(result);
     }
 
     [HttpGet("interview-questions")]
     public async Task<IActionResult> GetInterviewQuestions()
     {
-        // Implementation will be added later
-        return Ok();
+        var result = await _mediator.Send(new GetInterviewQuestionsQuery());
+        return HandleResult(result);
     }
 
     [HttpGet("interview-questions/{category}")]
     public async Task<IActionResult> GetInterviewQuestionsByCategory([FromRoute] string category)
     {
-        // Implementation will be added later
-        return Ok();
+        var result = await _mediator.Send(new GetInterviewQuestionsByCategoryQuery { Category = category });
+        return HandleResult(result);
     }
 
     [HttpPost]
     public async Task<IActionResult> CreateResource([FromBody] CreateResourceCommand command)
     {
-        // Implementation will be added later
-        return Ok();
+        var result = await _mediator.Send(command);
+        return HandleResult(result);
     }
 
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateResource([FromRoute] int id, [FromBody] UpdateResourceCommand command)
     {
-        // Implementation will be added later
-        return Ok();
+        command.Id = id;
+        var result = await _mediator.Send(command);
+        return HandleResult(result);
     }
 }

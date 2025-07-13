@@ -15,7 +15,7 @@ public class CreateResourceCommand : IRequest<Result<int>>
     public List<string> Tags { get; set; } = new();
 }
 
-public class UpdateResourceCommand : IRequest<Result<bool>>
+public class UpdateResourceCommand : IRequest<Result>
 {
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;

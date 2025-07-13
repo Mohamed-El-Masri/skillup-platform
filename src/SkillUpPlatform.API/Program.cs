@@ -56,14 +56,15 @@ builder.Services.AddApiServices(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
+// Enable Swagger in all environments (Development, Production, etc.)
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "SkillUp Platform API V1");
-    });
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "SkillUp Platform API V1");
+    c.RoutePrefix = "swagger"; // Set Swagger UI at /swagger
+    c.DocumentTitle = "SkillUp Platform API Documentation";
+    c.DisplayRequestDuration();
+});
 
 app.UseHttpsRedirection();
 

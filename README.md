@@ -36,6 +36,41 @@ The project follows **Clean Architecture** principles with **N-tier Architecture
 - 📋 **Professional Resources**: CV templates, Cover letters, Interview questions
 - 📊 **User Dashboard**: Progress tracking and analytics
 
+## 🌐 API Documentation & Swagger
+
+### Accessing Swagger UI:
+- **Development**: `https://localhost:5001/swagger`
+- **Production**: `https://your-domain.com/swagger`
+
+### Important Note:
+Swagger is enabled in all environments (Development, Staging, Production) for easy API documentation access.
+
+## 📦 Deployment Guide
+
+### For Production Deployment:
+
+1. **Build for Production**:
+   ```bash
+   # Run the production build script
+   build-production.bat
+   ```
+
+2. **Test Production Mode Locally**:
+   ```bash
+   # Test production settings before deployment
+   start-production.bat
+   ```
+
+3. **Deploy to Server**:
+   - Copy the contents of `publish` folder to your server
+   - Ensure your server has .NET 8.0 Runtime installed
+   - Configure your web server (IIS, Apache, Nginx) to serve the application
+   - Update `appsettings.Production.json` with your production settings
+
+### Environment Variables:
+- `ASPNETCORE_ENVIRONMENT`: Set to "Production" for production deployment
+- Update connection strings in `appsettings.Production.json`
+
 ## 🛠️ Technology Stack
 
 ### Backend:

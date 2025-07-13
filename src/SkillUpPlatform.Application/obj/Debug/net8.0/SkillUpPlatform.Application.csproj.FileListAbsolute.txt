@@ -29,3 +29,35 @@ D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\ob
 D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
 D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
 D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll
+E:\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.deps.json
+E:\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+E:\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+E:\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+E:\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.AssemblyReference.cache
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfoInputs.cache
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfo.cs
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.CoreCompileInputs.cache
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.sourcelink.json
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpP.960CE8BF.Up2Date
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.dll
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
+E:\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.deps.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.AssemblyReference.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfoInputs.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfo.cs
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.CoreCompileInputs.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.sourcelink.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpP.960CE8BF.Up2Date
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll

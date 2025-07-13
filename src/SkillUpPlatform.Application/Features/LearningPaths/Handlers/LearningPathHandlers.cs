@@ -1,12 +1,13 @@
+using AutoMapper;
 using MediatR;
 using SkillUpPlatform.Application.Common.Constants;
 using SkillUpPlatform.Application.Common.Models;
 using SkillUpPlatform.Application.Features.LearningPaths.Commands;
 using SkillUpPlatform.Application.Features.LearningPaths.DTOs;
 using SkillUpPlatform.Application.Features.LearningPaths.Queries;
+using SkillUpPlatform.Application.Interfaces;
 using SkillUpPlatform.Domain.Entities;
 using SkillUpPlatform.Domain.Interfaces;
-using AutoMapper;
 
 namespace SkillUpPlatform.Application.Features.LearningPaths.Handlers;
 
@@ -146,5 +147,64 @@ public class EnrollInLearningPathCommandHandler : IRequestHandler<EnrollInLearni
         await _unitOfWork.SaveChangesAsync();
 
         return Result<bool>.Success(true);
+    }
+}
+
+
+public class RecommendLearningPathCommandHandler
+    : IRequestHandler<RecommendLearningPathCommand, Result<List<LearningPathDto>>>
+{
+    private readonly IAIService _aiService;
+    private readonly IUnitOfWork _unitOfWork;
+    private readonly IMapper _mapper;
+
+    public RecommendLearningPathCommandHandler(
+        IAIService aiService,
+        IUnitOfWork unitOfWork,
+        IMapper mapper)
+    {
+        _aiService = aiService;
+        _unitOfWork = unitOfWork;
+        _mapper = mapper;
+    }
+
+    public async Task<Result<List<LearningPathDto>>> Handle(
+        RecommendLearningPathCommand request,
+        CancellationToken cancellationToken)
+    {
+        // Call AI service to get recommendation titles or IDs
+        var recommendedTitles = await _aiService.GenerateRecommendationsAsync(
+            request.UserId, "learning");
+
+        var allPaths = await _unitOfWork.LearningPaths.GetAllAsync();
+
+        var matchedPaths = allPaths
+            .Where(lp => recommendedTitles.Any(r => lp.Title.Contains(r, StringComparison.OrdinalIgnoreCase)))
+            .ToList();
+
+        var dtoList = _mapper.Map<List<LearningPathDto>>(matchedPaths);
+
+        return Result<List<LearningPathDto>>.Success(dtoList);
+    }
+}
+
+public class GetUserLearningPathsQueryHandler : IRequestHandler<GetUserLearningPathsQuery, Result<List<UserLearningPathDto>>>
+{
+    private readonly IUnitOfWork _unitOfWork;
+    private readonly IMapper _mapper;
+
+    public GetUserLearningPathsQueryHandler(IUnitOfWork unitOfWork, IMapper mapper)
+    {
+        _unitOfWork = unitOfWork;
+        _mapper = mapper;
+    }
+
+    public async Task<Result<List<UserLearningPathDto>>> Handle(GetUserLearningPathsQuery request, CancellationToken cancellationToken)
+    {
+        var userLearningPaths = await _unitOfWork.UserLearningPaths.GetByUserIdAsync(request.UserId);
+
+        var result = _mapper.Map<List<UserLearningPathDto>>(userLearningPaths);
+
+        return Result<List<UserLearningPathDto>>.Success(result);
     }
 }

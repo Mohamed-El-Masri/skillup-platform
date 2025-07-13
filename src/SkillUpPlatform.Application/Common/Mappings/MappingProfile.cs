@@ -1,9 +1,10 @@
 using AutoMapper;
-using SkillUpPlatform.Application.Features.Users.DTOs;
-using SkillUpPlatform.Application.Features.LearningPaths.DTOs;
 using SkillUpPlatform.Application.Features.Assessments.DTOs;
-using SkillUpPlatform.Application.Features.Content.DTOs;
+using SkillUpPlatform.Application.Features.Contentt.DTOs;
+using SkillUpPlatform.Application.Features.LearningPaths.DTOs;
+using SkillUpPlatform.Application.Features.Resources.Commands;
 using SkillUpPlatform.Application.Features.Resources.DTOs;
+using SkillUpPlatform.Application.Features.Users.DTOs;
 using SkillUpPlatform.Domain.Entities;
 using System.Text.Json;
 
@@ -60,7 +61,8 @@ public class MappingProfile : Profile
         CreateMap<Resource, ResourceDetailDto>()
             .ForMember(dest => dest.Tags, opt => opt.MapFrom(src => 
                 DeserializeStringList(src.Tags)));        // User Progress mappings
-        CreateMap<UserProgress, UserProgressDto>();
+        CreateMap<UserProgress, UserProgressDto>(); 
+        CreateMap<CreateResourceCommand, Resource>();
     }
 
     private static List<string> DeserializeStringList(string? jsonString)

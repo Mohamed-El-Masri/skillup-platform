@@ -1,5 +1,6 @@
 using MediatR;
 using SkillUpPlatform.Application.Common.Models;
+using SkillUpPlatform.Application.Features.LearningPaths.DTOs;
 using SkillUpPlatform.Domain.Entities;
 
 namespace SkillUpPlatform.Application.Features.LearningPaths.Commands;
@@ -16,7 +17,7 @@ public class CreateLearningPathCommand : IRequest<Result<int>>
     public List<string> LearningObjectives { get; set; } = new();
 }
 
-public class RecommendLearningPathCommand : IRequest<Result<List<int>>>
+public class RecommendLearningPathCommand : IRequest<Result<List<LearningPathDto>>>
 {
     public int UserId { get; set; }
     public List<string> Skills { get; set; } = new();
