@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "SkillUpPlatform.API.Controllers.AIAssistantController",
+    "ContainingType": "AIAssistantController",
     "Method": "AnalyzeSkills",
     "RelativePath": "api/v1/AIAssistant/analyze-skills",
     "HttpMethod": "POST",
@@ -21,7 +21,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SkillUpPlatform.API.Controllers.AIAssistantController",
+    "ContainingType": "AIAssistantController",
     "Method": "ChatWithAssistant",
     "RelativePath": "api/v1/AIAssistant/chat",
     "HttpMethod": "POST",
@@ -42,7 +42,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SkillUpPlatform.API.Controllers.AIAssistantController",
+    "ContainingType": "AIAssistantController",
     "Method": "GenerateCV",
     "RelativePath": "api/v1/AIAssistant/generate-cv",
     "HttpMethod": "POST",
@@ -63,7 +63,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SkillUpPlatform.API.Controllers.AIAssistantController",
+    "ContainingType": "AIAssistantController",
     "Method": "RecommendCareer",
     "RelativePath": "api/v1/AIAssistant/recommend-career",
     "HttpMethod": "POST",
@@ -84,7 +84,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SkillUpPlatform.API.Controllers.AIAssistantController",
+    "ContainingType": "AIAssistantController",
     "Method": "GetUserProgress",
     "RelativePath": "api/v1/AIAssistant/user/{userId}/progress",
     "HttpMethod": "GET",
@@ -245,7 +245,7 @@
     "Parameters": [
       {
         "Name": "command",
-        "Type": "SkillUpPlatform.Application.Features.Content.Commands.CreateContentCommand",
+        "Type": "SkillUpPlatform.Application.Features.Contentt.Commands.CreateContentCommand",
         "IsRequired": true
       },
       {
@@ -292,7 +292,7 @@
       },
       {
         "Name": "command",
-        "Type": "SkillUpPlatform.Application.Features.Content.Commands.UpdateContentCommand",
+        "Type": "SkillUpPlatform.Application.Features.Contentt.Commands.UpdateContentCommand",
         "IsRequired": true
       },
       {

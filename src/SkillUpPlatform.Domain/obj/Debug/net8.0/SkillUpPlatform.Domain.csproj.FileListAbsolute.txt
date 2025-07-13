@@ -9,3 +9,15 @@ e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Proj
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\refint\SkillUpPlatform.Domain.dll
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.pdb
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Domain\obj\Debug\net8.0\ref\SkillUpPlatform.Domain.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.deps.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.AssemblyInfoInputs.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.AssemblyInfo.cs
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.csproj.CoreCompileInputs.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.sourcelink.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\refint\SkillUpPlatform.Domain.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\ref\SkillUpPlatform.Domain.dll

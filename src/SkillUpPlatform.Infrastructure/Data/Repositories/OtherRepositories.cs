@@ -25,6 +25,13 @@ public class ResourceRepository : GenericRepository<Resource>, IResourceReposito
             .ToListAsync();
     }
 
+    public async Task<List<Resource>> GetByTypeAndCategoryAsync(ResourceType resourceType, string category)
+    {
+        return await _context.Resources
+            .Where(r => r.ResourceType == resourceType && r.Category == category && !r.IsDeleted)
+            .ToListAsync();
+    }
+
     public async Task<IEnumerable<Resource>> GetActiveResourcesAsync()
     {
         return await _dbSet

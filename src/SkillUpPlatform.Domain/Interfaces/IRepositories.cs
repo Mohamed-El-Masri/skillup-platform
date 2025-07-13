@@ -39,6 +39,8 @@ public interface IResourceRepository : IGenericRepository<Resource>
     Task<IEnumerable<Resource>> GetResourcesByTypeAsync(ResourceType resourceType);
     Task<IEnumerable<Resource>> GetResourcesByCategoryAsync(string category);
     Task<IEnumerable<Resource>> GetActiveResourcesAsync();
+    Task<List<Resource>> GetByTypeAndCategoryAsync(ResourceType resourceType, string category);
+
 }
 
 public interface IUserProgressRepository : IGenericRepository<UserProgress>

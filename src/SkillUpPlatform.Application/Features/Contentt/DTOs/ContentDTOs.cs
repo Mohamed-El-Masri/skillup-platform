@@ -1,6 +1,6 @@
 using SkillUpPlatform.Domain.Entities;
 
-namespace SkillUpPlatform.Application.Features.Content.DTOs;
+namespace SkillUpPlatform.Application.Features.Contentt.DTOs;
 
 public class ContentDto
 {

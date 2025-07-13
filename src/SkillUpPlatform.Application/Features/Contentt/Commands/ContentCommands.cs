@@ -2,7 +2,7 @@ using MediatR;
 using SkillUpPlatform.Application.Common.Models;
 using SkillUpPlatform.Domain.Entities;
 
-namespace SkillUpPlatform.Application.Features.Content.Commands;
+namespace SkillUpPlatform.Application.Features.Contentt.Commands;
 
 public class CreateContentCommand : IRequest<Result<int>>
 {
@@ -17,7 +17,7 @@ public class CreateContentCommand : IRequest<Result<int>>
     public int LearningPathId { get; set; }
 }
 
-public class UpdateContentCommand : IRequest<Result<bool>>
+public class UpdateContentCommand : IRequest<Result>
 {
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;
@@ -34,4 +34,9 @@ public class MarkContentAsCompletedCommand : IRequest<Result<bool>>
     public int UserId { get; set; }
     public int ContentId { get; set; }
     public int TimeSpentMinutes { get; set; }
+}
+
+public class DeleteContentCommand : IRequest<Result>
+{
+    public int Id { get; set; }
 }
