@@ -10,7 +10,7 @@ public class ContentRepository : GenericRepository<Content>, IContentRepository
     public ContentRepository(ApplicationDbContext context) : base(context)
     {
     }
-
+   
     public async Task<IEnumerable<Content>> GetContentByLearningPathAsync(int learningPathId)
     {
         return await _dbSet

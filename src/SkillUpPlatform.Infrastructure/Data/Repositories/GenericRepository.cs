@@ -59,7 +59,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
     public virtual void Remove(T entity)
     {
         _dbSet.Remove(entity);
-    }    public virtual void RemoveRange(IEnumerable<T> entities)
+    }   
+    
+    public virtual void RemoveRange(IEnumerable<T> entities)
     {
         _dbSet.RemoveRange(entities);
     }

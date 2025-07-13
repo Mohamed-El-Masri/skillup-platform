@@ -16,8 +16,8 @@ public class AIAssistantController : BaseController
     [HttpPost("chat")]
     public async Task<IActionResult> ChatWithAssistant([FromBody] ChatWithAssistantCommand command)
     {
-        // Implementation will be added later
-        return Ok();
+        var result = await _mediator.Send(command);
+        return Ok(result);
     }
 
     [HttpPost("analyze-skills")]

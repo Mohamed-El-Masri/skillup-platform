@@ -7,17 +7,18 @@ namespace SkillUpPlatform.Infrastructure.Data.Repositories;
 public class UnitOfWork : IUnitOfWork
 {
     private readonly ApplicationDbContext _context;
-    private IDbContextTransaction? _transaction;    public UnitOfWork(ApplicationDbContext context,
-        IUserRepository users,
-        ILearningPathRepository learningPaths,
-        IContentRepository contents,
-        IAssessmentRepository assessments,
-        IResourceRepository resources,
-        IUserProgressRepository userProgress,
-        IAssessmentResultRepository assessmentResults,
-        IQuestionRepository questions,
-        IUserAnswerRepository userAnswers,
-        IUserLearningPathRepository userLearningPaths)
+    private IDbContextTransaction? _transaction;   
+    public UnitOfWork(ApplicationDbContext context,
+                        IUserRepository users,
+                        ILearningPathRepository learningPaths,
+                        IContentRepository contents,
+                        IAssessmentRepository assessments,
+                        IResourceRepository resources,
+                        IUserProgressRepository userProgress,
+                        IAssessmentResultRepository assessmentResults,
+                        IQuestionRepository questions,
+                        IUserAnswerRepository userAnswers,
+                        IUserLearningPathRepository userLearningPaths)
     {
         _context = context;
         Users = users;

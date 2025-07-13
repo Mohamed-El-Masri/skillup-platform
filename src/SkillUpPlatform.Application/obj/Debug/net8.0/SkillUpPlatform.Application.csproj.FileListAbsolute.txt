@@ -13,3 +13,19 @@ e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Proj
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
 e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.deps.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.AssemblyReference.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfoInputs.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfo.cs
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.CoreCompileInputs.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.sourcelink.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpP.960CE8BF.Up2Date
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll
