@@ -15,10 +15,8 @@ namespace SkillUpPlatform.Infrastructure.Migrations
     [Migration("20250713015536_init")]
     partial class init
     {
-        /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
-#pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "8.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
@@ -703,84 +701,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.ToTable("UserProgresses");
                 });
 
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Assessment", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.LearningPath", "LearningPath")
-                        .WithMany("Assessments")
-                        .HasForeignKey("LearningPathId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
-                    b.Navigation("LearningPath");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.AssessmentResult", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.Assessment", "Assessment")
-                        .WithMany("AssessmentResults")
-                        .HasForeignKey("AssessmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SkillUpPlatform.Domain.Entities.User", "User")
-                        .WithMany("AssessmentResults")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Assessment");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Content", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.LearningPath", "LearningPath")
-                        .WithMany("Contents")
-                        .HasForeignKey("LearningPathId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("LearningPath");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Question", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.Assessment", "Assessment")
-                        .WithMany("Questions")
-                        .HasForeignKey("AssessmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Assessment");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.UserAnswer", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.AssessmentResult", "AssessmentResult")
-                        .WithMany("UserAnswers")
-                        .HasForeignKey("AssessmentResultId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SkillUpPlatform.Domain.Entities.Question", "Question")
-                        .WithMany("UserAnswers")
-                        .HasForeignKey("QuestionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SkillUpPlatform.Domain.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AssessmentResult");
-
-                    b.Navigation("Question");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("SkillUpPlatform.Domain.Entities.UserLearningPath", b =>
                 {
                     b.HasOne("SkillUpPlatform.Domain.Entities.LearningPath", "LearningPath")
@@ -800,78 +720,7 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.UserProfile", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.User", "User")
-                        .WithOne("UserProfile")
-                        .HasForeignKey("SkillUpPlatform.Domain.Entities.UserProfile", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
 
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.UserProgress", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.Content", "Content")
-                        .WithMany("UserProgresses")
-                        .HasForeignKey("ContentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SkillUpPlatform.Domain.Entities.User", "User")
-                        .WithMany("UserProgresses")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Content");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Assessment", b =>
-                {
-                    b.Navigation("AssessmentResults");
-
-                    b.Navigation("Questions");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.AssessmentResult", b =>
-                {
-                    b.Navigation("UserAnswers");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Content", b =>
-                {
-                    b.Navigation("UserProgresses");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.LearningPath", b =>
-                {
-                    b.Navigation("Assessments");
-
-                    b.Navigation("Contents");
-
-                    b.Navigation("UserLearningPaths");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Question", b =>
-                {
-                    b.Navigation("UserAnswers");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.User", b =>
-                {
-                    b.Navigation("AssessmentResults");
-
-                    b.Navigation("UserLearningPaths");
-
-                    b.Navigation("UserProfile");
-
-                    b.Navigation("UserProgresses");
-                });
-#pragma warning restore 612, 618
         }
     }
 }

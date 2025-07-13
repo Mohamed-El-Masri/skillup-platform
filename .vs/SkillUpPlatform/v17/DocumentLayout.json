@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\resources\\handlers\\resourcehandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\resources\\handlers\\resourcehandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3386DA04-D9A0-477D-A243-5D0E195FB768}|src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.infrastructure\\data\\repositories\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3386DA04-D9A0-477D-A243-5D0E195FB768}|src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj|solutionrelative:src\\skillupplatform.infrastructure\\data\\repositories\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3386DA04-D9A0-477D-A243-5D0E195FB768}|src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.infrastructure\\migrations\\20250713015536_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3386DA04-D9A0-477D-A243-5D0E195FB768}|src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj|solutionrelative:src\\skillupplatform.infrastructure\\migrations\\20250713015536_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3386DA04-D9A0-477D-A243-5D0E195FB768}|src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.infrastructure\\migrations\\20250713015536_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3386DA04-D9A0-477D-A243-5D0E195FB768}|src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj|solutionrelative:src\\skillupplatform.infrastructure\\migrations\\20250713015536_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.api\\controllers\\aiassistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|solutionrelative:src\\skillupplatform.api\\controllers\\aiassistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\common\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\common\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\resources\\commands\\resourcecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,40 +55,8 @@
       "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\resources\\dtos\\resourcedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3386DA04-D9A0-477D-A243-5D0E195FB768}|src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.infrastructure\\data\\repositories\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3386DA04-D9A0-477D-A243-5D0E195FB768}|src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj|solutionrelative:src\\skillupplatform.infrastructure\\data\\repositories\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\contentt\\handlers\\contenthandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\contentt\\handlers\\contenthandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.api\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|solutionrelative:src\\skillupplatform.api\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\common\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\common\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\contentt\\queries\\contentqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\contentt\\queries\\contentqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\ai\\handlers\\aihandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\ai\\handlers\\aihandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\contentt\\dtos\\contentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\contentt\\dtos\\contentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\contentt\\commands\\contentcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\contentt\\commands\\contentcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BA975A1-3DA3-40D3-9E8B-2B3A091764FE}|src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.application\\features\\learningpaths\\commands\\learningpathcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EBF4735-CBE3-445A-B30D-7568B9987D81}|src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj|solutionrelative:src\\skillupplatform.application\\features\\learningpaths\\commands\\learningpathcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.api\\controllers\\aiassistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|solutionrelative:src\\skillupplatform.api\\controllers\\aiassistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj|d:\\pwd iti\\finally graduation project\\backend\\src\\skillupplatform.api\\controllers\\assessmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -238,25 +222,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 23,
               "Title": "BaseController.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\BaseController.cs",
               "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\BaseController.cs",
               "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T01:37:51.86Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 3,
               "Title": "AIAssistantController.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\AIAssistantController.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\AIAssistantController.cs",
@@ -265,22 +248,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T21:36:52.52Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AIHandlers.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\Handlers\\AIHandlers.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\AI\\Handlers\\AIHandlers.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\Handlers\\AIHandlers.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\AI\\Handlers\\AIHandlers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:52:23.295Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -336,163 +304,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ResourceHandlers.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Handlers\\ResourceHandlers.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Resources\\Handlers\\ResourceHandlers.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Handlers\\ResourceHandlers.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Resources\\Handlers\\ResourceHandlers.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAMwDYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "20250713015536_init.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Migrations\\20250713015536_init.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Infrastructure\\Migrations\\20250713015536_init.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Migrations\\20250713015536_init.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Infrastructure\\Migrations\\20250713015536_init.cs",
+              "ViewState": "AgIAANEBAAAAAAAAAADwv+YBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T04:26:39.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T05:30:22.97Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ResourceCommands.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Commands\\ResourceCommands.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Resources\\Commands\\ResourceCommands.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Commands\\ResourceCommands.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Resources\\Commands\\ResourceCommands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Title": "20250713015536_init.Designer.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Migrations\\20250713015536_init.Designer.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Infrastructure\\Migrations\\20250713015536_init.Designer.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Migrations\\20250713015536_init.Designer.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Infrastructure\\Migrations\\20250713015536_init.Designer.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAAANMCAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T04:22:22.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T05:29:01.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResourceQueries.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Queries\\ResourceQueries.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Resources\\Queries\\ResourceQueries.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Queries\\ResourceQueries.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Resources\\Queries\\ResourceQueries.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAkwCMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T04:22:30.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Mappings\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Common\\Mappings\\MappingProfile.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Mappings\\MappingProfile.cs*",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Common\\Mappings\\MappingProfile.cs*",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:25:31.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepositories.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Interfaces\\IRepositories.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Interfaces\\IRepositories.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Interfaces\\IRepositories.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Domain\\Interfaces\\IRepositories.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:24:54.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OtherRepositories.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\OtherRepositories.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\OtherRepositories.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\OtherRepositories.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\OtherRepositories.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T04:34:00.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ResourceDTOs.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\DTOs\\ResourceDTOs.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Resources\\DTOs\\ResourceDTOs.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\DTOs\\ResourceDTOs.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Resources\\DTOs\\ResourceDTOs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T04:22:27.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResourcesController.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:36:39.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ContentHandlers.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Contentt\\Handlers\\ContentHandlers.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Contentt\\Handlers\\ContentHandlers.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Contentt\\Handlers\\ContentHandlers.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Contentt\\Handlers\\ContentHandlers.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAAI4AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T03:33:58.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ContentController.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ContentController.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\ContentController.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ContentController.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\ContentController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwCIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T03:29:54.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "ContentRepository.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\ContentRepository.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\ContentRepository.cs",
               "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\ContentRepository.cs",
               "RelativeToolTip": "src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\ContentRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwDMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T01:42:13.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ValidationBehavior.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCIAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Common\\Mappings\\MappingProfile.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Common\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:26:15.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:25:31.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "LoggingBehavior.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Behaviors\\LoggingBehavior.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Common\\Behaviors\\LoggingBehavior.cs",
@@ -500,51 +361,108 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Common\\Behaviors\\LoggingBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:24:41.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:24:41.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T01:26:15.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResourceQueries.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Queries\\ResourceQueries.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Resources\\Queries\\ResourceQueries.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Queries\\ResourceQueries.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Resources\\Queries\\ResourceQueries.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T04:22:30.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResourceCommands.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Commands\\ResourceCommands.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Resources\\Commands\\ResourceCommands.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\Commands\\ResourceCommands.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Resources\\Commands\\ResourceCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T04:22:22.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepositories.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Interfaces\\IRepositories.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Interfaces\\IRepositories.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Interfaces\\IRepositories.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Domain\\Interfaces\\IRepositories.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:24:54.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OtherRepositories.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\OtherRepositories.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\OtherRepositories.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\OtherRepositories.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Infrastructure\\Data\\Repositories\\OtherRepositories.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T04:34:00.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResourceDTOs.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\DTOs\\ResourceDTOs.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Resources\\DTOs\\ResourceDTOs.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Resources\\DTOs\\ResourceDTOs.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Resources\\DTOs\\ResourceDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T04:22:27.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResourcesController.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\ResourcesController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:36:39.905Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ContentQueries.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Contentt\\Queries\\ContentQueries.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Contentt\\Queries\\ContentQueries.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Contentt\\Queries\\ContentQueries.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Contentt\\Queries\\ContentQueries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\ContentController.cs",
+              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\ContentController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwCIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:39:05.799Z",
+              "WhenOpened": "2025-07-13T03:29:54.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ContentDTOs.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Contentt\\DTOs\\ContentDTOs.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Contentt\\DTOs\\ContentDTOs.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Contentt\\DTOs\\ContentDTOs.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Contentt\\DTOs\\ContentDTOs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T03:29:35.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ContentCommands.cs",
-              "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Contentt\\Commands\\ContentCommands.cs",
-              "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Contentt\\Commands\\ContentCommands.cs",
-              "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Contentt\\Commands\\ContentCommands.cs",
-              "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Contentt\\Commands\\ContentCommands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:39:01.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Interfaces\\IUnitOfWork.cs",
@@ -552,25 +470,23 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Domain\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:25:03.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T12:25:03.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "LearningPathHandlers.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Handlers\\LearningPathHandlers.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Handlers\\LearningPathHandlers.cs",
               "ToolTip": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Handlers\\LearningPathHandlers.cs",
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Handlers\\LearningPathHandlers.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwL4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwNEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:46:22.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T02:46:22.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "LearningPathsController.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\LearningPathsController.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\LearningPathsController.cs",
@@ -583,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "LearningPath.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\LearningPath.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\LearningPath.cs",
@@ -591,12 +507,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Domain\\Entities\\LearningPath.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:32:47.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T12:32:47.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "LearningPathQueries.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Queries\\LearningPathQueries.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Queries\\LearningPathQueries.cs",
@@ -604,12 +519,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Queries\\LearningPathQueries.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:50:59.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T02:50:59.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "LearningPathDTOs.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\LearningPaths\\DTOs\\LearningPathDTOs.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\LearningPaths\\DTOs\\LearningPathDTOs.cs",
@@ -617,12 +531,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\LearningPaths\\DTOs\\LearningPathDTOs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T03:01:46.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T03:01:46.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "LearningPathCommands.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Commands\\LearningPathCommands.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Commands\\LearningPathCommands.cs",
@@ -630,12 +543,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\LearningPaths\\Commands\\LearningPathCommands.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T03:01:03.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T03:01:03.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 24,
               "Title": "AssessmentValidators.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Validators\\AssessmentValidators.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Validators\\AssessmentValidators.cs",
@@ -643,12 +555,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Validators\\AssessmentValidators.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:33:43.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T02:33:43.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 22,
               "Title": "AssessmentCommandHandlers.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentCommandHandlers.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentCommandHandlers.cs",
@@ -661,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 21,
               "Title": "AssessmentsController.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Controllers\\AssessmentsController.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Controllers\\AssessmentsController.cs",
@@ -669,12 +580,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.API\\Controllers\\AssessmentsController.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:37:02.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T21:37:02.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 25,
               "Title": "AssessmentQueries.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Queries\\AssessmentQueries.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Queries\\AssessmentQueries.cs",
@@ -682,12 +592,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Queries\\AssessmentQueries.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:33:31.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T02:33:31.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 27,
               "Title": "AssessmentDTOs.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\DTOs\\AssessmentDTOs.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\DTOs\\AssessmentDTOs.cs",
@@ -695,12 +604,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Assessments\\DTOs\\AssessmentDTOs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:31:20.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:31:20.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 26,
               "Title": "AssessmentQueryHandlers.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentQueryHandlers.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentQueryHandlers.cs",
@@ -708,12 +616,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Handlers\\AssessmentQueryHandlers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:46:56.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T21:46:56.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 28,
               "Title": "AssessmentCommands.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\Assessments\\Commands\\AssessmentCommands.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Commands\\AssessmentCommands.cs",
@@ -721,12 +628,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\Assessments\\Commands\\AssessmentCommands.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:22:46.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T22:22:46.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 29,
               "Title": "AIService.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Services\\AIService.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Infrastructure\\Services\\AIService.cs",
@@ -734,12 +640,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Infrastructure\\Services\\AIService.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAwwD8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:07:56.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T12:07:56.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 30,
               "Title": "AIQueries.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\Queries\\AIQueries.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\AI\\Queries\\AIQueries.cs",
@@ -747,12 +652,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\AI\\Queries\\AIQueries.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:38:58.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T22:38:58.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 31,
               "Title": "AIDTOs.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\DTOs\\AIDTOs.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\AI\\DTOs\\AIDTOs.cs",
@@ -760,12 +664,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\AI\\DTOs\\AIDTOs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:29:15.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:29:15.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 32,
               "Title": "AICommands.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Features\\AI\\Commands\\AICommands.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Features\\AI\\Commands\\AICommands.cs",
@@ -773,12 +676,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Features\\AI\\Commands\\AICommands.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:38:54.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T22:38:54.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 35,
               "Title": "CustomExceptions.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Exceptions\\CustomExceptions.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Common\\Exceptions\\CustomExceptions.cs",
@@ -786,12 +688,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Common\\Exceptions\\CustomExceptions.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:25:22.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:25:22.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 33,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\DependencyInjection.cs",
@@ -799,12 +700,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:39:11.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T22:39:11.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 34,
               "Title": "Result.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Models\\Result.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Common\\Models\\Result.cs",
@@ -812,12 +712,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Common\\Models\\Result.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:25:50.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:25:50.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 36,
               "Title": "Messages.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Common\\Constants\\Messages.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Common\\Constants\\Messages.cs",
@@ -825,12 +724,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Common\\Constants\\Messages.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:25:05.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:25:05.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 37,
               "Title": "IServices.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Application\\Interfaces\\IServices.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Application\\Interfaces\\IServices.cs",
@@ -838,12 +736,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Application\\Interfaces\\IServices.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T01:22:25.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:22:25.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 42,
               "Title": "Question.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\Question.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\Question.cs",
@@ -855,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 41,
               "Title": "Resource.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\Resource.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\Resource.cs",
@@ -867,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 40,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\User.cs",
@@ -879,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 39,
               "Title": "UserAnswer.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\UserAnswer.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\UserAnswer.cs",
@@ -891,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 38,
               "Title": "UserLearningPath.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\UserLearningPath.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\UserLearningPath.cs",
@@ -899,12 +796,11 @@
               "RelativeToolTip": "src\\SkillUpPlatform.Domain\\Entities\\UserLearningPath.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:32:55.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T12:32:55.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 45,
               "Title": "AssessmentResult.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\AssessmentResult.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\AssessmentResult.cs",
@@ -916,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 43,
               "Title": "Enums.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\Enums.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\Enums.cs",
@@ -928,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 44,
               "Title": "Content.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\Content.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\Content.cs",
@@ -940,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 46,
               "Title": "Assessment.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\Assessment.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\Assessment.cs",
@@ -952,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 47,
               "Title": "UserProgress.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\UserProgress.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\UserProgress.cs",
@@ -964,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 48,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Entities\\UserProfile.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Entities\\UserProfile.cs",
@@ -976,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 49,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Interfaces\\IGenericRepository.cs",
@@ -988,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 50,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Domain\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Domain\\Common\\BaseEntity.cs",
@@ -1000,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 51,
               "Title": "OtherServices.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.Infrastructure\\Services\\OtherServices.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.Infrastructure\\Services\\OtherServices.cs",
@@ -1012,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 52,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PWD ITI\\Finally Graduation Project\\Backend\\src\\SkillUpPlatform.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\SkillUpPlatform.API\\Program.cs",
