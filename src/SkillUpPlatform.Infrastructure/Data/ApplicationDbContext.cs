@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SkillUpPlatform.Domain.Entities;
 using SkillUpPlatform.Infrastructure.Data.Configurations;
+using System.Text.Json;
 
 namespace SkillUpPlatform.Infrastructure.Data;
 
@@ -21,11 +22,49 @@ public class ApplicationDbContext : DbContext
     public DbSet<UserLearningPath> UserLearningPaths { get; set; }
     public DbSet<UserProgress> UserProgresses { get; set; }
     public DbSet<Resource> Resources { get; set; }
+    public DbSet<FileUpload> FileUploads { get; set; }
+    public DbSet<Domain.Entities.FileShare> FileShares { get; set; }
+    public DbSet<Notification> Notifications { get; set; }
+    public DbSet<NotificationSettings> NotificationSettings { get; set; }
+    public DbSet<Achievement> Achievements { get; set; }
+    public DbSet<UserAchievement> UserAchievements { get; set; }
+    public DbSet<UserGoal> UserGoals { get; set; }
+    public DbSet<SystemHealth> SystemHealths { get; set; }
+    public DbSet<AuditLog> AuditLogs { get; set; }
+    public DbSet<UserActivity> UserActivities { get; set; }
+    public DbSet<SystemSettings> SystemSettings { get; set; }
+    public DbSet<UserSession> UserSessions { get; set; }
+    public DbSet<PasswordResetToken> PasswordResetTokens { get; set; }
+    public DbSet<EmailVerificationToken> EmailVerificationTokens { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        base.OnModelCreating(modelBuilder);        // Apply all configurations
+        base.OnModelCreating(modelBuilder);
+        
+        // Apply all configurations
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+        
+        // Configure SystemHealth.AdditionalInfo as JSON
+        modelBuilder.Entity<SystemHealth>(entity =>
+        {
+            entity.Property(e => e.AdditionalInfo)
+                .HasConversion(
+                    v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null),
+                    v => JsonSerializer.Deserialize<Dictionary<string, object>>(v, (JsonSerializerOptions)null) 
+                         ?? new Dictionary<string, object>())
+                .HasColumnType("nvarchar(max)");
+        });
+        
+        // Configure UserActivity.AdditionalData as JSON
+        modelBuilder.Entity<UserActivity>(entity =>
+        {
+            entity.Property(e => e.AdditionalData)
+                .HasConversion(
+                    v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null),
+                    v => JsonSerializer.Deserialize<Dictionary<string, object>>(v, (JsonSerializerOptions)null) 
+                         ?? new Dictionary<string, object>())
+                .HasColumnType("nvarchar(max)");
+        });
     }
 
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)

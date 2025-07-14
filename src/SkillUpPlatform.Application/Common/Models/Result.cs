@@ -22,3 +22,20 @@ public class Result
     public static Result Failure(string error) => new() { IsSuccess = false, Error = error };
     public static Result Failure(List<string> errors) => new() { IsSuccess = false, Errors = errors };
 }
+
+public class FileInfoDto
+{
+    public Guid Id { get; set; }
+    public string FileName { get; set; } = string.Empty;
+    public string OriginalFileName { get; set; } = string.Empty;
+    public string ContentType { get; set; } = string.Empty;
+    public long FileSize { get; set; }
+    public string Category { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public bool IsPublic { get; set; }
+    public DateTime CreatedAt { get; set; }
+    public DateTime? UpdatedAt { get; set; }
+    public string UploadedBy { get; set; } = string.Empty;
+    public string FileUrl { get; set; } = string.Empty;
+    public string ThumbnailUrl { get; set; } = string.Empty;
+}

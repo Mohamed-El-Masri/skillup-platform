@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillUpPlatform.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17b0760fac013999b02b5558e16739f086a4cdc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf46d49c67443bc2f1b856d60df8795ac09acccc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillUpPlatform.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillUpPlatform.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

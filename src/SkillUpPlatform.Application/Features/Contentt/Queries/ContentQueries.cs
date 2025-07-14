@@ -20,3 +20,17 @@ public class GetContentByLearningPathQuery : IRequest<Result<List<ContentDto>>>
 {
     public int LearningPathId { get; set; }
 }
+
+public class GetNextContentQuery : IRequest<Result<ContentDto>>
+{
+    public int LearningPathId { get; set; }
+    public int CurrentContentId { get; set; }
+    public int UserId { get; set; }
+}
+
+public class GetPreviousContentQuery : IRequest<Result<ContentDto>>
+{
+    public int LearningPathId { get; set; }
+    public int CurrentContentId { get; set; }
+    public int UserId { get; set; }
+}

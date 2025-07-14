@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {}
+    "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
+    "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj",
+        "projectUniqueName": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj",
         "projectName": "SkillUpPlatform.Application",
-        "projectPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj",
+        "projectPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Application\\obj\\",
+        "outputPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
-                "projectPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj"
+              "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
+                "projectPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj"
               }
             }
           }
@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[12.2.0, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -107,14 +111,14 @@
         }
       }
     },
-    "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
+    "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+        "projectUniqueName": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
         "projectName": "SkillUpPlatform.Domain",
-        "projectPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+        "projectPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\obj\\",
+        "outputPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,14 +176,14 @@
         }
       }
     },
-    "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {
+    "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj",
+        "projectUniqueName": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj",
         "projectName": "SkillUpPlatform.Infrastructure",
-        "projectPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj",
+        "projectPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Infrastructure\\obj\\",
+        "outputPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -200,11 +204,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
-                "projectPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj"
+              "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
+                "projectPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj"
               },
-              "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
-                "projectPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj"
+              "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
+                "projectPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj"
               }
             }
           }

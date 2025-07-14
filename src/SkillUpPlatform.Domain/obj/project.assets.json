@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+      "projectUniqueName": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
       "projectName": "SkillUpPlatform.Domain",
-      "projectPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+      "projectPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\Gallery\\skillup-hager\\Backend\\src\\SkillUpPlatform.Domain\\obj\\",
+      "outputPath": "e:\\Gallery\\Skillup Project\\skillup-backend\\src\\SkillUpPlatform.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

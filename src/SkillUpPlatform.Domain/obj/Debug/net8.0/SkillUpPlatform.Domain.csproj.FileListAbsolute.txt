@@ -45,3 +45,15 @@ E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\Ski
 E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\refint\SkillUpPlatform.Domain.dll
 E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.pdb
 E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\ref\SkillUpPlatform.Domain.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.deps.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.GeneratedMSBuildEditorConfig.editorconfig
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.AssemblyInfoInputs.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.AssemblyInfo.cs
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.csproj.CoreCompileInputs.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.sourcelink.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\refint\SkillUpPlatform.Domain.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\SkillUpPlatform.Domain.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Domain\obj\Debug\net8.0\ref\SkillUpPlatform.Domain.dll

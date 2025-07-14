@@ -28,6 +28,49 @@ public abstract class BaseController : ControllerBase
         return GetUserIdFromContext();
     }
 
+    protected string GetCurrentUserEmail()
+    {
+        if (HttpContext.Items.TryGetValue("Email", out var emailObj) && emailObj is string email)
+        {
+            return email;
+        }
+        return string.Empty;
+    }
+
+    protected string GetCurrentUserRole()
+    {
+        if (HttpContext.Items.TryGetValue("Role", out var roleObj) && roleObj is string role)
+        {
+            return role;
+        }
+        return string.Empty;
+    }
+
+    protected bool IsUserInRole(string role)
+    {
+        return GetCurrentUserRole().Equals(role, StringComparison.OrdinalIgnoreCase);
+    }
+
+    protected bool IsCurrentUser(int userId)
+    {
+        return GetCurrentUserId() == userId;
+    }
+
+    protected string GetClientIpAddress()
+    {
+        var ipAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
+        if (Request.Headers.ContainsKey("X-Forwarded-For"))
+        {
+            ipAddress = Request.Headers["X-Forwarded-For"].FirstOrDefault()?.Split(',')[0];
+        }
+        return ipAddress ?? "Unknown";
+    }
+
+    protected string GetUserAgent()
+    {
+        return Request.Headers["User-Agent"].ToString();
+    }
+
     protected IActionResult HandleResult<T>(Result<T> result)
     {
         if (result == null)

@@ -30,3 +30,32 @@ public class EnrollInLearningPathCommand : IRequest<Result<bool>>
     public int UserId { get; set; }
     public int LearningPathId { get; set; }
 }
+
+public class UpdateLearningPathCommand : IRequest<Result>
+{
+    public int LearningPathId { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public string? ImageUrl { get; set; }
+    public string Status { get; set; } = string.Empty;
+    public bool IsPublished { get; set; }
+    public List<int> ContentIds { get; set; } = new();
+}
+
+public class DeleteLearningPathCommand : IRequest<Result<bool>>
+{
+    public int LearningPathId { get; set; }
+    public int CreatorId { get; set; }
+}
+
+public class PublishLearningPathCommand : IRequest<Result<bool>>
+{
+    public int LearningPathId { get; set; }
+    public int CreatorId { get; set; }
+}
+
+public class UnpublishLearningPathCommand : IRequest<Result<bool>>
+{
+    public int LearningPathId { get; set; }
+    public int CreatorId { get; set; }
+}

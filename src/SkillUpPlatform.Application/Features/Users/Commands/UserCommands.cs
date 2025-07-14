@@ -33,3 +33,30 @@ public class UpdateUserProfileCommand : IRequest<Result<bool>>
     public List<string>? Interests { get; set; }
     public List<string>? Certifications { get; set; }
 }
+
+public class UpdateUserNotificationSettingsCommand : IRequest<Result>
+{
+    public Guid UserId { get; set; }
+    public bool EmailNotifications { get; set; }
+    public bool PushNotifications { get; set; }
+    public bool LearningReminders { get; set; }
+    public bool AchievementNotifications { get; set; }
+    public bool NewsletterSubscription { get; set; }
+    public bool WeeklyProgressReport { get; set; }
+}
+
+public class DeleteUserAccountCommand : IRequest<Result>
+{
+    public Guid UserId { get; set; }
+    public string Reason { get; set; } = string.Empty;
+    public string Password { get; set; } = string.Empty;
+}
+
+public class UploadProfilePictureCommand : IRequest<Result<string>>
+{
+    public Guid UserId { get; set; }
+    public Stream FileStream { get; set; } = Stream.Null;
+    public string FileName { get; set; } = string.Empty;
+    public string ContentType { get; set; } = string.Empty;
+    public long FileSize { get; set; }
+}

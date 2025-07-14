@@ -15,7 +15,7 @@ public class GetLearningPathByIdQuery : IRequest<Result<LearningPathDetailDto>>
     public int LearningPathId { get; set; }
 }
 
-public class GetUserLearningPathsQuery : IRequest<Result<List<UserLearningPathDto>>>
+public class GetUserLearningPathsQuery : IRequest<Result<List<Common.Models.UserLearningPathDto>>>
 {
     public int UserId { get; set; }
 }

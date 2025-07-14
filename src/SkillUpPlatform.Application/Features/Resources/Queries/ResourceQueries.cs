@@ -7,7 +7,8 @@ namespace SkillUpPlatform.Application.Features.Resources.Queries;
 
 public class GetResourcesQuery : IRequest<Result<List<ResourceDto>>>
 {
-    public ResourceType? ResourceType { get; set; }
+    public ResourceType? Type { get; set; }
+    public int? LearningPathId { get; set; }
     public string? Category { get; set; }
     public string? SearchTerm { get; set; }
 }
@@ -33,4 +34,15 @@ public class GetInterviewQuestionsQuery : IRequest<Result<List<ResourceDto>>>
 public class GetInterviewQuestionsByCategoryQuery : IRequest<Result<List<ResourceDto>>>
 {
     public string Category { get; set; } = string.Empty;
+}
+
+public class DeleteResourceCommand : IRequest<Result>
+{
+    public int Id { get; set; }
+}
+
+public class DownloadResourceQuery : IRequest<Result<FileDownloadDto>>
+{
+    public int ResourceId { get; set; }
+    public int UserId { get; set; }
 }

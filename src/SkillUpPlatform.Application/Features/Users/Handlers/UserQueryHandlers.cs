@@ -9,7 +9,7 @@ using System.Text.Json;
 
 namespace SkillUpPlatform.Application.Features.Users.Handlers;
 
-public class GetUserByIdQueryHandler : IRequestHandler<GetUserByIdQuery, Result<UserDto>>
+public class GetUserByIdQueryHandler : IRequestHandler<GetUserByIdQuery, Result<Common.Models.UserDto>>
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
@@ -20,17 +20,17 @@ public class GetUserByIdQueryHandler : IRequestHandler<GetUserByIdQuery, Result<
         _mapper = mapper;
     }
 
-    public async Task<Result<UserDto>> Handle(GetUserByIdQuery request, CancellationToken cancellationToken)
+    public async Task<Result<Common.Models.UserDto>> Handle(GetUserByIdQuery request, CancellationToken cancellationToken)
     {
         var user = await _unitOfWork.Users.GetByIdAsync(request.UserId);
         
         if (user == null)
         {
-            return Result<UserDto>.Failure(ErrorMessages.UserNotFound);
+            return Result<Common.Models.UserDto>.Failure(ErrorMessages.UserNotFound);
         }
 
-        var userDto = _mapper.Map<UserDto>(user);
-        return Result<UserDto>.Success(userDto);
+        var userDto = _mapper.Map<Common.Models.UserDto>(user);
+        return Result<Common.Models.UserDto>.Success(userDto);
     }
 }
 
@@ -80,7 +80,7 @@ public class GetUserProfileQueryHandler : IRequestHandler<GetUserProfileQuery, R
     }
 }
 
-public class GetUsersQueryHandler : IRequestHandler<GetUsersQuery, Result<List<UserDto>>>
+public class GetUsersQueryHandler : IRequestHandler<GetUsersQuery, Result<List<Common.Models.UserDto>>>
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
@@ -91,7 +91,7 @@ public class GetUsersQueryHandler : IRequestHandler<GetUsersQuery, Result<List<U
         _mapper = mapper;
     }
 
-    public async Task<Result<List<UserDto>>> Handle(GetUsersQuery request, CancellationToken cancellationToken)
+    public async Task<Result<List<Common.Models.UserDto>>> Handle(GetUsersQuery request, CancellationToken cancellationToken)
     {
         var users = await _unitOfWork.Users.GetAllAsync();
         
@@ -108,7 +108,7 @@ public class GetUsersQueryHandler : IRequestHandler<GetUsersQuery, Result<List<U
         users = users.Skip((request.Page - 1) * request.PageSize)
                     .Take(request.PageSize);
 
-        var userDtos = _mapper.Map<List<UserDto>>(users.ToList());
-        return Result<List<UserDto>>.Success(userDtos);
+        var userDtos = _mapper.Map<List<Common.Models.UserDto>>(users.ToList());
+        return Result<List<Common.Models.UserDto>>.Success(userDtos);
     }
 }

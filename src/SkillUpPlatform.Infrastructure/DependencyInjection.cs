@@ -28,18 +28,32 @@ public static class DependencyInjection
         services.AddScoped<IAssessmentResultRepository, AssessmentResultRepository>();
         services.AddScoped<IQuestionRepository, QuestionRepository>();
         services.AddScoped<IUserAnswerRepository, UserAnswerRepository>();
-        services.AddScoped<IUserLearningPathRepository, UserLearningPathRepository>();        // Services
+        services.AddScoped<IUserLearningPathRepository, UserLearningPathRepository>();
+        services.AddScoped<IFileUploadRepository, FileUploadRepository>();
+        services.AddScoped<INotificationRepository, NotificationRepository>();
+        services.AddScoped<IAchievementRepository, AchievementRepository>();
+        services.AddScoped<IUserGoalRepository, UserGoalRepository>();
+        services.AddScoped<IAuditLogRepository, AuditLogRepository>();
+        services.AddScoped<IUserActivityRepository, UserActivityRepository>();
+        services.AddScoped<ISystemHealthRepository, SystemHealthRepository>();
+        services.AddScoped<IPasswordResetTokenRepository, PasswordResetTokenRepository>();
+        services.AddScoped<IEmailVerificationTokenRepository, EmailVerificationTokenRepository>();
+        services.AddScoped<IUserSessionRepository, UserSessionRepository>();        // Services
         services.AddScoped<IAIService, AIService>();
         services.AddScoped<IEmailService, EmailService>();
         services.AddScoped<IFileService, FileService>();
         services.AddScoped<ITokenService, TokenService>();
         services.AddScoped<ICacheService, CacheService>();
+        services.AddScoped<INotificationService, NotificationService>();
 
         // Redis Cache (optional - can be configured later)
         // services.AddStackExchangeRedisCache(options =>
         // {
         //     options.Configuration = configuration.GetConnectionString("Redis");
         // });
+
+        // Memory Cache
+        services.AddMemoryCache();
 
         return services;
     }

@@ -1,84 +1,131 @@
 using Microsoft.AspNetCore.Mvc;
 using SkillUpPlatform.Application.Features.Contentt.Commands;
 using SkillUpPlatform.Application.Features.Contentt.Queries;
+using SkillUpPlatform.Application.Features.Progress.Commands;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SkillUpPlatform.API.Controllers;
 
+/// <summary>
+/// Content management endpoints
+/// </summary>
 [ApiController]
 [Route("api/v1/[controller]")]
+[Authorize]
 public class ContentController : BaseController
 {
     public ContentController(IMediator mediator) : base(mediator)
     {
     }
 
+    /// <summary>
+    /// Get all content
+    /// </summary>
     [HttpGet]
-    public async Task<IActionResult> GetContent()
+    [AllowAnonymous]
+    public async Task<IActionResult> GetContent([FromQuery] int? learningPathId = null, [FromQuery] string? type = null)
     {
-        var result = await _mediator.Send(new GetContentQuery());
-        if (!result.IsSuccess)
-            return BadRequest(result.Error);
-
-        return Ok(result.Data);
-
+        var query = new GetContentQuery { LearningPathId = learningPathId };
+        var result = await _mediator.Send(query);
+        return Ok(result);
     }
 
+    /// <summary>
+    /// Get content by ID
+    /// </summary>
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetContentById([FromRoute] int id)
+    [Authorize]
+    public async Task<IActionResult> GetContentById(int id)
     {
-        var result = await _mediator.Send(new GetContentByIdQuery { ContentId = id });
-        if (!result.IsSuccess)
-            return NotFound(result.Error);
-
-        return Ok(result.Data);
+        var query = new GetContentByIdQuery { ContentId = id, UserId = GetCurrentUserId() };
+        var result = await _mediator.Send(query);
+        return Ok(result);
     }
 
+    /// <summary>
+    /// Create new content (Content Creator only)
+    /// </summary>
     [HttpPost]
+    [Authorize(Roles = "ContentCreator,Admin")]
     public async Task<IActionResult> CreateContent([FromBody] CreateContentCommand command)
     {
+        command.CreatedBy = GetCurrentUserId();
         var result = await _mediator.Send(command);
-
-        if (!result.IsSuccess)
-            return BadRequest(new { Error = result.Error });
-
-        return Ok(new { ContentId = result.Data, Message = "Content created successfully" });
+        return Ok(result);
     }
 
+    /// <summary>
+    /// Update content (Content Creator only)
+    /// </summary>
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateContent([FromRoute] int id, [FromBody] UpdateContentCommand command)
+    [Authorize(Roles = "ContentCreator,Admin")]
+    public async Task<IActionResult> UpdateContent(int id, [FromBody] UpdateContentCommand command)
     {
         command.Id = id;
+        command.UpdatedBy = GetCurrentUserId();
         var result = await _mediator.Send(command);
-
-        if (!result.IsSuccess)
-            return BadRequest(new { Error = result.Error });
-
-        return Ok(new { Message = "Content updated successfully" });
+        return Ok(result);
     }
 
+    /// <summary>
+    /// Delete content (Content Creator only)
+    /// </summary>
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteContent([FromRoute] int id)
+    [Authorize(Roles = "ContentCreator,Admin")]
+    public async Task<IActionResult> DeleteContent(int id)
     {
         var command = new DeleteContentCommand { Id = id };
         var result = await _mediator.Send(command);
-
-        if (!result.IsSuccess)
-            return NotFound(new { Error = result.Error });
-
-        return Ok(new { Message = "Content deleted successfully" });
+        return Ok(result);
     }
 
-    [HttpGet("learning-path/{learningPathId}")]
-    public async Task<IActionResult> GetContentByLearningPath([FromRoute] int learningPathId)
+    /// <summary>
+    /// Mark content as completed (Student only)
+    /// </summary>
+    [HttpPost("{id}/complete")]
+    [Authorize(Roles = "Student")]
+    public async Task<IActionResult> CompleteContent(int id)
     {
-        var query = new GetContentByLearningPathQuery { LearningPathId = learningPathId };
+        var command = new CompleteContentCommand { ContentId = id, UserId = GetCurrentUserId() };
+        var result = await _mediator.Send(command);
+        return Ok(result);
+    }
+
+    /// <summary>
+    /// Get content progress
+    /// </summary>
+    [HttpGet("{id}/progress")]
+    [Authorize(Roles = "Student")]
+    public async Task<IActionResult> GetContentProgress(int id)
+    {
+        var query = new GetContentProgressQuery { ContentId = id, UserId = GetCurrentUserId() };
         var result = await _mediator.Send(query);
+        return Ok(result);
+    }
 
-        if (!result.IsSuccess)
-            return NotFound(new { Error = result.Error });
+    /// <summary>
+    /// Get next content in learning path
+    /// </summary>
+    [HttpGet("{id}/next")]
+    [Authorize(Roles = "Student")]
+    public async Task<IActionResult> GetNextContent(int id, [FromQuery] int learningPathId)
+    {
+        var query = new SkillUpPlatform.Application.Features.Contentt.Queries.GetNextContentQuery { CurrentContentId = id, LearningPathId = learningPathId, UserId = GetCurrentUserId() };
+        var result = await _mediator.Send(query);
+        return Ok(result);
+    }
 
-        return Ok(result.Data);
+    /// <summary>
+    /// Get previous content in learning path
+    /// </summary>
+    [HttpGet("{id}/previous")]
+    [Authorize(Roles = "Student")]
+    public async Task<IActionResult> GetPreviousContent(int id, [FromQuery] int learningPathId)
+    {
+        var query = new SkillUpPlatform.Application.Features.Contentt.Queries.GetPreviousContentQuery { CurrentContentId = id, LearningPathId = learningPathId, UserId = GetCurrentUserId() };
+        var result = await _mediator.Send(query);
+        return Ok(result);
     }
 
 }

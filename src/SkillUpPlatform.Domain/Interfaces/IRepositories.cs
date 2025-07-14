@@ -76,3 +76,66 @@ public interface IUserLearningPathRepository : IGenericRepository<UserLearningPa
     Task<IEnumerable<UserLearningPath>> GetByUserIdAsync(int userId);
     Task<IEnumerable<UserLearningPath>> GetByLearningPathIdAsync(int learningPathId);
 }
+
+// New Repository Interfaces
+public interface IFileUploadRepository : IGenericRepository<FileUpload>
+{
+    Task<List<FileUpload>> GetByUserIdAsync(int userId);
+    Task<List<FileUpload>> GetPublicFilesAsync();
+    Task<List<FileUpload>> GetSharedWithUserAsync(int userId);
+}
+
+public interface INotificationRepository : IGenericRepository<Notification>
+{
+    Task<List<Notification>> GetByUserIdAsync(int userId);
+    Task<List<Notification>> GetUnreadByUserIdAsync(int userId);
+    Task<int> GetUnreadCountAsync(int userId);
+}
+
+public interface IAchievementRepository : IGenericRepository<Achievement>
+{
+    Task<List<Achievement>> GetActiveAchievementsAsync();
+    Task<List<UserAchievement>> GetUserAchievementsAsync(int userId);
+}
+
+public interface IUserGoalRepository : IGenericRepository<UserGoal>
+{
+    Task<List<UserGoal>> GetByUserIdAsync(int userId);
+    Task<List<UserGoal>> GetActiveGoalsAsync(int userId);
+}
+
+public interface IAuditLogRepository : IGenericRepository<AuditLog>
+{
+    Task<List<AuditLog>> GetByUserIdAsync(int userId);
+    Task<List<AuditLog>> GetByEntityAsync(string entityType, int entityId);
+}
+
+public interface IUserActivityRepository : IGenericRepository<UserActivity>
+{
+    Task<List<UserActivity>> GetByUserIdAsync(int userId);
+    Task<List<UserActivity>> GetRecentActivityAsync(int userId, int count);
+}
+
+public interface ISystemHealthRepository : IGenericRepository<SystemHealth>
+{
+    Task<List<SystemHealth>> GetLatestHealthChecksAsync();
+    Task<SystemHealth?> GetByComponentAsync(string component);
+}
+
+public interface IPasswordResetTokenRepository : IGenericRepository<PasswordResetToken>
+{
+    Task<PasswordResetToken?> GetValidTokenAsync(string token);
+    Task<List<PasswordResetToken>> GetByUserIdAsync(int userId);
+}
+
+public interface IEmailVerificationTokenRepository : IGenericRepository<EmailVerificationToken>
+{
+    Task<EmailVerificationToken?> GetValidTokenAsync(string token);
+    Task<List<EmailVerificationToken>> GetByUserIdAsync(int userId);
+}
+
+public interface IUserSessionRepository : IGenericRepository<UserSession>
+{
+    Task<List<UserSession>> GetActiveSessionsAsync(int userId);
+    Task<UserSession?> GetBySessionIdAsync(string sessionId);
+}

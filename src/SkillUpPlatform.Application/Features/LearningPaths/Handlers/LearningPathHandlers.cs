@@ -188,7 +188,7 @@ public class RecommendLearningPathCommandHandler
     }
 }
 
-public class GetUserLearningPathsQueryHandler : IRequestHandler<GetUserLearningPathsQuery, Result<List<UserLearningPathDto>>>
+public class GetUserLearningPathsQueryHandler : IRequestHandler<GetUserLearningPathsQuery, Result<List<Common.Models.UserLearningPathDto>>>
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
@@ -199,12 +199,12 @@ public class GetUserLearningPathsQueryHandler : IRequestHandler<GetUserLearningP
         _mapper = mapper;
     }
 
-    public async Task<Result<List<UserLearningPathDto>>> Handle(GetUserLearningPathsQuery request, CancellationToken cancellationToken)
+    public async Task<Result<List<Common.Models.UserLearningPathDto>>> Handle(GetUserLearningPathsQuery request, CancellationToken cancellationToken)
     {
         var userLearningPaths = await _unitOfWork.UserLearningPaths.GetByUserIdAsync(request.UserId);
 
-        var result = _mapper.Map<List<UserLearningPathDto>>(userLearningPaths);
+        var result = _mapper.Map<List<Common.Models.UserLearningPathDto>>(userLearningPaths);
 
-        return Result<List<UserLearningPathDto>>.Success(result);
+        return Result<List<Common.Models.UserLearningPathDto>>.Success(result);
     }
 }
