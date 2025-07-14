@@ -496,4 +496,3 @@ e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Release\n
 e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Release\net8.0\SkillUpPlatform.API.xml
 e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Release\net8.0\SkillUpPlatform.API.genruntimeconfig.cache
 e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Release\net8.0\ref\SkillUpPlatform.API.dll
-E:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
